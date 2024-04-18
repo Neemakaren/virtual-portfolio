@@ -1,0 +1,103 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    /* font-weight: ; */
+    font-style: normal;
+}
+
+.h {
+    background: url('./assets/img-1.jpg');
+}
+
+.s {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
+    max-width: 1120px;
+    margin: 50px auto;
+    padding: 15px;
+    gap: 2em;
+    border: 2px solid red;
+    scroll-behavior: smooth;
+}
+
+.j {
+    /* font-family: "Cedarville Cursive", cursive; */
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.u {
+    width: 5rem;
+    height: 0.25rem;
+    background: #c59d5f;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 2.5em;
+}
+
+.underline-1 {
+    display: none;
+ }
+ 
+ .about-con {
+     max-width: 1120px;
+     /* background-image: url('../../assets/agro.png');
+     object-fit: cover;
+     background-repeat: no-repeat;
+     position: relative; */
+     margin: 50px auto;
+ }
+ 
+ .con-1 {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+ }
+ 
+ .about-content {
+     margin: 50px auto;
+ }
+ 
+ 
+ 
+ .about-img {
+     width: 20em;
+     margin: auto;
+     border-radius: 50px;
+ }
+ 
+ .about-main {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+ }
+ 
+ 
+ 
+ @media all and  (max-width: 768px) {
+     .about-con {
+         background-image: none;
+         border: 2px solid #c59d5f;
+     }
+     /* .about-img {
+         display: none;
+     } */
+     .about-head {
+         padding-bottom: 2px;
+     }
+     
+ }
+
+ .x{
+    color: #5a5b5d;
+ }
+
+ 
